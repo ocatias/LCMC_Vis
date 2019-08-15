@@ -17,8 +17,8 @@ Download the project and import it with Unity. Note that this program is intende
 * **P** - Load multiple simulation and automaticly take screenshots from different angles and at different times (this seems to only works on Windows and not on Ubuntu)
 
 ## Examples
-![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d16_1.png)
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif1d16_1.gif)
 
-![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/sphere002.png)
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif1d20_1.gif)
 
-![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d25_1.png)  
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif2d20_1.gif)  
