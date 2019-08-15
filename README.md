@@ -21,4 +21,6 @@ Download the project and import it with Unity. Note that this program is intende
 
 ![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/sphere002.png)
 
-![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d25_1.png)  |  ![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/r1d16_diag.png)
+![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/r1d16_diag.png)
+
+![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d25_1.png)  
