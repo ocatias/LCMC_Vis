@@ -7,13 +7,16 @@ It is written for the Unity game engine and uses the [Unity Standalone File Brow
 Download the project and import it with Unity. Note that this program is intended to only run in the Unity Editor.
 
 ### Controls
-W/A/S/D: Rotate the camera
-Q/E: Zoom in or out
-R: Go one timestep ahead
-T: Go one timestep back
-X: Load a new simulation
-+/-: Change the radius outside of which no particles are rendered
+* **W / A / S / D** - Rotate the camera
+* **Q / E** - Zoom in/out
+* **R** - Go one timestep ahead
+* **T** - Go one timestep back
+* **X** - Load a new simulation
+* **+ / -** - Change the radius outside of which no particles are rendered
 
-P: Load multiple simulation and automaticly take screenshots from different angles and at different times (this seems to only works in Windows and not on Ubuntu)
+* **P** - Load multiple simulation and automaticly take screenshots from different angles and at different times (this seems to only works on Windows and not on Ubuntu)
 
 ## Examples
+![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d16_1.jpg){:height="50%" width="50%"}
+![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/sphere002.jpg)
+![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/rod1d25_1.jpg)  |  ![](https://github.com/ocatias/LCMC_Sim/blob/master/Pictures/r1d25_projection.pdf)
