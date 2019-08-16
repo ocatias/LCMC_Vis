@@ -252,6 +252,12 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Programme/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -303,8 +309,77 @@
     <Compile Include="Assets\Scripts\FreeFloatingCamera.cs" />
     <Compile Include="Assets\Scripts\MeshGenerator.cs" />
     <Compile Include="Assets\Scripts\Reader.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\BasicSample.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs" />
+    <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Results\bigCylinder.txt" />
+    <None Include="Assets\Results\bigCylinderd16.txt" />
+    <None Include="Assets\Results\bigCylinderd18.txt" />
+    <None Include="Assets\Results\bigCylinderd20.txt" />
+    <None Include="Assets\Results\bigCylinderd202.txt" />
+    <None Include="Assets\Results\bigCylinderd22.txt" />
+    <None Include="Assets\Results\bigCylinderd23.txt" />
+    <None Include="Assets\Results\bigCylinderd24.txt" />
+    <None Include="Assets\Results\bigCylinderd28.txt" />
+    <None Include="Assets\Results\bigCylinderd30.txt" />
+    <None Include="Assets\Results\bigCylinderd35.txt" />
+    <None Include="Assets\Results\bigCylinderd38.txt" />
+    <None Include="Assets\Results\bigc.txt" />
+    <None Include="Assets\Results\cube.txt" />
+    <None Include="Assets\Results\cube2.txt" />
+    <None Include="Assets\Results\cube3.txt" />
+    <None Include="Assets\Results\halfSphered20.txt" />
+    <None Include="Assets\Results\halfSphered24.txt" />
+    <None Include="Assets\Results\hs20.txt" />
+    <None Include="Assets\Results\hs25.txt" />
+    <None Include="Assets\Results\hs30.txt" />
+    <None Include="Assets\Results\lyingN200.txt" />
+    <None Include="Assets\Results\lyingN300.txt" />
+    <None Include="Assets\Results\lyingN400.txt" />
+    <None Include="Assets\Results\lyingN650.txt" />
+    <None Include="Assets\Results\petri1.txt" />
+    <None Include="Assets\Results\petri1l1.txt" />
+    <None Include="Assets\Results\petri1l2.txt" />
+    <None Include="Assets\Results\petri1l3.txt" />
+    <None Include="Assets\Results\petri2l1.txt" />
+    <None Include="Assets\Results\petri2l2.txt" />
+    <None Include="Assets\Results\petri3.txt" />
+    <None Include="Assets\Results\petri4.txt" />
+    <None Include="Assets\Results\petri5l2.txt" />
+    <None Include="Assets\Results\rod1d16.txt" />
+    <None Include="Assets\Results\rod1d18.txt" />
+    <None Include="Assets\Results\rod1d20.txt" />
+    <None Include="Assets\Results\rod1d25.txt" />
+    <None Include="Assets\Results\rod2d16.txt" />
+    <None Include="Assets\Results\rod2d18.txt" />
+    <None Include="Assets\Results\rod2d20.txt" />
+    <None Include="Assets\Results\rod2d25.txt" />
+    <None Include="Assets\Results\rod3d16.txt" />
+    <None Include="Assets\Results\rod3d18.txt" />
+    <None Include="Assets\Results\rod3d20.txt" />
+    <None Include="Assets\Results\rod3d25.txt" />
+    <None Include="Assets\Results\sphere.txt" />
+    <None Include="Assets\Results\sphere2.txt" />
+    <None Include="Assets\Results\sphere20.txt" />
+    <None Include="Assets\Results\sphere25.txt" />
+    <None Include="Assets\Results\sphere4.txt" />
+    <None Include="Assets\Results\standingN200.txt" />
+    <None Include="Assets\Results\standingN300.txt" />
+    <None Include="Assets\Results\standingN400.txt" />
+    <None Include="Assets\Results\standingN650.txt" />
+    <None Include="Assets\Results\test.txt" />
+    <None Include="Assets\Results\test2.txt" />
     <None Include="Assets\output.txt" />
     <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Styles\Main_Light.uss" />

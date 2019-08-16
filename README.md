@@ -1,8 +1,24 @@
-# upm-package-template-3DLegacy
-Project Template for 3D scenes not using a SRP and empty
+# Visualisation of Biaxial Liquid Crystals in Confinement
+This is program is intended to visualize the simulations done [here](https://github.com/ocatias/LCMC_Sim/). It allows the user to look at the system from all angles and at different points in time. It can also automaticaly take screenshots of multiple systems and with different settings.
 
-This template uses Unity’s built in rendering pipeline and contain no content by default. This is a good starting point for developers looking to create 3D projects.
+It is written for the Unity game engine and uses the [Unity Standalone File Browser](https://github.com/gkngkc/UnityStandaloneFileBrowser).
 
+## Getting Started
+Download the project and import it with Unity. Note that this program is intended to only run in the Unity Editor.
 
-Package Name: com.unity.template.3dempty
-Package Version: 0.0.2
+### Controls
+* **W / A / S / D** - Rotate the camera
+* **Q / E** - Zoom in/out
+* **R** - Go one timestep ahead
+* **T** - Go one timestep back
+* **X** - Load a new simulation
+* **+ / -** - Change the radius outside of which no particles are rendered
+
+* **P** - Load multiple simulation and automaticly take screenshots from different angles and at different times (this seems to only works on Windows and not on Ubuntu)
+
+## Examples
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif1d16_1.gif)
+
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif1d20_1.gif)
+
+![](https://github.com/ocatias/LCMC_Vis/blob/master/Pictures/gif2d20_1.gif)  

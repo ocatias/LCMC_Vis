@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class FreeFloatingCamera : MonoBehaviour {
 
-    float phi = -2.5f;
-    float theta = 7.4f;
+    public float phi = -2.5f;
+    public float theta = 7.4f;
     public float phiVelocity = 3f;
     public float thetaVelocity = 1.5f;
     public float zoomVelocity = 15f;
-    public float radius = 30;
+    public float radius = 90f;
     
 
 	// Use this for initialization

@@ -21,29 +21,18 @@ public class MeshGenerator : MonoBehaviour
 
     private void CreateCube()
     {
-        //Vector3[] vertices = {
-        //    new Vector3 (0, 0, 0),
-        //    new Vector3 (1, 0, 0),
-        //    new Vector3 (1, 1, 0),
-        //    new Vector3 (0, 1, 0),
-        //    new Vector3 (0, 1, 1),
-        //    new Vector3 (1, 1, 1),
-        //    new Vector3 (1, 0, 1),
-        //    new Vector3 (0, 0, 1),
-        //};
-
         int[] triangles = {
-            0, 2, 1, //face front
+            0, 2, 1, 
 			0, 3, 2,
-            2, 3, 4, //face top
+            2, 3, 4, 
 			2, 4, 5,
-            1, 2, 5, //face right
+            1, 2, 5, 
 			1, 5, 6,
-            0, 7, 4, //face left
+            0, 7, 4,
 			0, 4, 3,
-            5, 4, 7, //face back
+            5, 4, 7,
 			5, 7, 6,
-            0, 6, 7, //face bottom
+            0, 6, 7,
 			0, 1, 6
         };
 
@@ -51,25 +40,15 @@ public class MeshGenerator : MonoBehaviour
         mesh.Clear();
         mesh.vertices = vertices;
         mesh.triangles = triangles;
-        //mesh.Optimize();
         mesh.RecalculateNormals();
 
-        //Color[] colors = new Color[vertices.Length];
-        //for (int i = 0; i < vertices.Length; i++)
-        //    colors[i] = Color.Lerp(Color.red, Color.green, vertices[i].y);
-        //mesh.colors = colors;
-
         Random.seed = (int)System.DateTime.Now.Ticks;
-
         GetComponent<MeshRenderer>().material = material;
-        //GetComponent<MeshRenderer>().material.
-        //if( Random.Range(-1.0f, 1.0f)> 0)
-        //{
-          MaterialPropertyBlock props = new MaterialPropertyBlock();
-          GetComponent<MeshRenderer>().GetPropertyBlock(props);
-          props.Clear();
-          props.SetColor("_Color", color);
-          GetComponent<MeshRenderer>().SetPropertyBlock(props);
-        //}
+        MaterialPropertyBlock props = new MaterialPropertyBlock();
+        GetComponent<MeshRenderer>().GetPropertyBlock(props);
+        props.Clear();
+        props.SetColor("_Color", color);
+        GetComponent<MeshRenderer>().SetPropertyBlock(props);
+
     }
 }
